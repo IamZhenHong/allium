@@ -1,0 +1,73 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Virtualenv ===
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.env.*
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === Logs & Outputs ===
+*.log
+*.out
+*.tmp
+*.bak
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Compiled Libraries ===
+*.so
+*.dylib
+
+# === Test/coverage ===
+.coverage
+htmlcov/
+.cache/
+.tox/
+.pytest_cache/
+
+# === Notebooks outputs ===
+*.nbconvert.ipynb
+
+# === Langchain or LLM Artifacts ===
+*.jsonl
+agent_logs/
+prompt_cache/
+
+# === Misc ===
+*.sqlite3
+*.db
+*.zip
+*.tar.gz
+
+# === Ignore credentials and secrets ===
+.env
+.env.local
+secrets.*
+api_keys.*
+openai_key.*
+
+# === Pip & Poetry ===
+pip-wheel-metadata/
+*.lock
+poetry.lock
